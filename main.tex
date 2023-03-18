@@ -1,0 +1,47 @@
+\documentclass[11pt]{article}
+% Defining all packages that are used in this document
+\input{Misc/preamble.tex}
+%\linespread{1.5}
+\renewcommand{\baselinestretch}{1.5}
+\title{
+    Lab Experiment \\
+    Beam Bending
+    }
+\author{
+	Jiaqi, Yao.%\footnote{jy431@exeter.ac.uk}
+}
+\date{
+    \today
+}
+
+\begin{document}
+\maketitle
+%\begin{abstract}
+%    This section should contain a short and concise way of describing all parts of the report. It should be a summary of the introduction, what has been done and what you have found.
+%\end{abstract}
+\pagenumbering{gobble} % Turn off page numbering
+%\newpage
+%\tableofcontents
+%\newpage
+\pagenumbering{arabic} % Turn on normal pagenumbering
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main contents - Do NOT write your text in main.tex! Use                     the tex files in the folders below
+\input{Introduction/A.tex}
+\input{Introduction/B.tex}
+\input{Introduction/C.tex}
+\input{Introduction/D.tex}
+
+%\input{Misc/list_of_symbols}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+\newpage
+\bibliographystyle{IEEEtran}
+\bibliography{mendeley.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendix
+%\appendix
+%\pagenumbering{roman}
+%\input{Appendix/appendix_A.tex}
+%\input{Appendix/appendix_B.tex}
+%\input{Appendix/appendix_C.tex}
+\end{document}
