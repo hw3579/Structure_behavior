@@ -1,6 +1,62 @@
 \section{Theory}
 \FloatBarrier % Now figures cannot float above section title
 
+The method of calculating the plastic moment is introduced in the powerpoint of the Week 6 lecture. As shown in the figure below \autoref{f1}.
+
+\begin{figure}
+    \centering
+    \includegraphics[]{./fig/11.png}
+    \caption{plastic modules of rectangular section  }
+    \label{f1}
+\end{figure}
+
+The plastic moment $M_p$ when all points in the section reached
+yield stress $\sigma_y$ is caculated by:
+
+\begin{equation} 
+    M_p=\sigma_y\frac{bd}{2}(\frac{d}{4}+\frac{d}{4})
+\end{equation}
+
+Calculated from the data from \autoref{t1}, we get $M_p=4.33N \cdot m$.
+
+There are three cases of collapse of plasticity of portal frame.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=15cm]{./fig/12.png}
+    %\caption{plastic modules of rectangular section  }
+    \label{f2}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\iffalse
+
 In this section, finite element analysis (ANSYS) is performed on the components.
 
 \subsection*{Analysis}
@@ -45,5 +101,5 @@ By using ANSYS analysis, deformation-displacement diagrams were obtained
 for two materials under three different forces, revealing that the maximum 
 deformation exists at the midpoint of the element (the point where the forces are applied).
 
-The comparison also shows that even under theoretical conditions, the deformation of aluminium \
-is larger than that of mild steel under the same forces.
+The comparison also shows that even under theoretical conditions, the deformation of aluminium is larger than that of mild steel under the same forces.
+\fi
