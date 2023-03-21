@@ -19,7 +19,7 @@ yield stress $\sigma_y$ is caculated by:
 
 Calculated from the data from \autoref{t1}, we get $M_p=4.33N \cdot m$.
 
-There are three cases of collapse of plasticity of portal frame.
+There are three cases of collapse of plasticity of portal frame. We use virtual work method to caculate it.
 
 \begin{figure}[htbp]
     \centering
@@ -30,23 +30,49 @@ There are three cases of collapse of plasticity of portal frame.
     \label{f2}
 \end{figure}
 
-\subsection*{Beam mechanism}
-If $W>>P$, the hinges are likely to appear in B, C and D.
 
-\subsection*{Sway mechanism}
-
-If $P>>W$, the hinges are likely to appear in B, C and D.
+$\bullet$ Beam mechanism: If $W>>P$, the hinges are likely to appear in B, C and D.
 
 
-\subsection*{Combined mechanism}
 
-If the value of P and W are the same, 
+$\bullet$ Sway mechanism: If $P>>W$, the hinges are likely to appear in A, B, D and E.
 
 
 
 
+$\bullet$ Combined mechanism: If P $\approx$ W, the smallest moment
+is at B (as moments due to P
+and W oppose each other), so
+hinges form at other possible
+locations. (The angle between ABC is $90^\circ$)
 
+The virtual work method is: 
 
+\begin{equation}
+    \sum_i^{}{P_i\delta_i}=\sum_j^{}{M_j\theta_j}
+    \label{e2}
+\end{equation}
+
+We noticed that the height (200mm) is equal to $\frac{2}{3}$ length (300mm). i.e. $H=\frac{2}{3}L$.
+
+By using \autoref{e2}, we can get
+
+$$
+\left\{ \begin{array}{l}
+	W\frac{\theta L}{2}=M_p\theta+M_p2\theta+M_p\theta \rightarrow W=\frac{8M_p}{L} (Beam)\\
+	P\frac{2L}{3}\theta=M_p\theta+M_p\theta+M_p\theta+M_p\theta \rightarrow P=\frac{6M_p}{L} (Sway)\\
+	P\frac{2L}{3}\theta+W\frac{\theta L}{2}=M_p\theta+M_p2\theta+M_p2\theta+M_p\theta \rightarrow 4P+3W=\frac{36M_p}{L} (Combined)\\
+\end{array} \right. 
+$$
+
+Let's plot the relationships P-W on a graph
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=5cm]{./fig/14.png}
+    \caption{P-W graph}
+    \label{f3}
+\end{figure}
 
 
 
