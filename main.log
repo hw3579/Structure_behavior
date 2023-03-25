@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.29)  23 MAR 2023 18:19
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.29)  25 MAR 2023 00:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -436,8 +436,10 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip70
+) (c:/texlive/2022/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 28.
+Package hyperref Info: Option `colorlinks' set `true' on input line 29.
  (./mcode.sty
 -- Package: `mcode' 2.7 <2015/11/11> --
 Package: mcode 2015/11/11 2.7
@@ -473,6 +475,10 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 284
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ))) (c:/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+)
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 19.
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (./main.aux)
 \openout1 = `main.aux'.
 
@@ -550,7 +556,10 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./Introduction/Introduction.tex) (./Introduction/Experiment.tex
+) (./Introduction/Introduction.tex
+File: ./fig/00.jpg Graphic file (type bmp)
+<./fig/00.jpg>
+) (./Introduction/Experiment.tex
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 20.
@@ -565,7 +574,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (34.94283pt too wide) in paragraph at lines 55--56
+Overfull \hbox (30.02702pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
@@ -576,37 +585,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--1
 
 File: ./fig/11.png Graphic file (type bmp)
 <./fig/11.png>
-[2]
 File: ./fig/12.png Graphic file (type bmp)
 <./fig/12.png>
 File: ./fig/13.png Graphic file (type bmp)
 <./fig/13.png>
- [3]
+[2]
 File: ./fig/14.png Graphic file (type bmp)
 <./fig/14.png>
 File: ./fig/15.jpg Graphic file (type bmp)
 <./fig/15.jpg>
- [4]) (./Introduction/Analysis.tex
+ [3]) (./Introduction/Analysis.tex
 File: ./fig/17.jpg Graphic file (type bmp)
 <./fig/17.jpg>
 File: ./fig/16.png Graphic file (type bmp)
 <./fig/16.png>
- [5]
+ [4]
 File: ./fig/18.jpg Graphic file (type bmp)
 <./fig/18.jpg>
- [6] [7]) (./Conclusion/conclusion.tex) [8]
+ [5] [6]) (./Conclusion/conclusion.tex) [7]
 No file main.bbl.
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 343AC77F6B758DA98A7B0532173886E4;445.
  ) 
 Here is how much of TeX's memory you used:
- 20481 strings out of 478126
- 389133 string characters out of 5853226
- 666412 words of memory out of 5000000
- 40802 multiletter control sequences out of 15000+600000
- 502799 words of font info for 69 fonts, out of 8000000 for 9000
+ 20540 strings out of 478126
+ 390248 string characters out of 5853226
+ 668606 words of memory out of 5000000
+ 40856 multiletter control sequences out of 15000+600000
+ 492178 words of font info for 69 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 76i,11n,80p,557b,787s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 76i,11n,80p,557b,785s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (8 pages).
+Output written on main.pdf (7 pages).
